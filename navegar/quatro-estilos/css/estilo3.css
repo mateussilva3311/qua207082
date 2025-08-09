@@ -1,5 +1,4 @@
 body{ 
-    background-color: white;
     font: 100% verdana;
     line-height: 26px;
     padding: 10px;
@@ -21,12 +20,13 @@ li{
     margin: 4px;
     float: left;
     width: 165px;
-    
+    list-style-type: none;
+    text-align: center;
+    cursor: pointer;
  }
 
 ul{ 
-    list-style-type: none;
-    text-align: center;
+    
     overflow: auto;
     padding: 2px;
 }
@@ -39,7 +39,7 @@ li:nth-child(3){
 li:hover{ 
 
     background-color: black;
-    cursor: pointer;
+    
 
 }
 
@@ -51,7 +51,7 @@ li:hover{
 }
 
 #bottom{
-     margin: 20px;
+     
     
  }
 
@@ -59,7 +59,7 @@ li:hover{
     text-align: center;
     font-size: 70%;
     line-height: 14px;
-    
+    margin: 20px;
 }
 
 a{
