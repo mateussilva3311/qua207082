@@ -1,13 +1,15 @@
 body {
     font: 100% "Lucida Sans", Verdana;
-
+    line-height: 26px;
+    margin: 20px;
  }
 
 
 #top {
-    top: 0;
+    
     background-color: #04AA6D;
     color: white;
+    padding: 15px;
 
  }
 
@@ -20,13 +22,13 @@ body {
 
 
 li {
-    float: left;
+    margin: 4px;
     background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
     list-style-type: none;
     padding: 2px;
     cursor: pointer;
-    text-align: -webkit-match-parent;
+    
    
  }
 
@@ -46,7 +48,7 @@ font-weight: bold;
 
 
 ul { 
-    
+    float: left;
     width: 200px;
     
 }
@@ -69,6 +71,7 @@ ul {
     background-color: #32a4e7;
     color: #ffffff;
     padding: 10px;
+    margin: 4px 0px;
     
     
  }
@@ -76,7 +79,7 @@ ul {
 
 .wrapper { 
     position: relative;
-   overflow: auto;
+   
 }
 
 
@@ -84,15 +87,17 @@ ul {
     background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
     text-align: center;
-    
+    line-height: 14px;
+    padding: 10px 20px;
+    font-size: 70%;
 
  }
 
 
 #top, li, #sidebar, #bottom {
     border-radius: 4px;
-    margin: 4px;
-     padding: 10px 20px;
+    
+    
 
  }
 
@@ -112,7 +117,8 @@ a:hover{
 
 
 #bottom p{ 
-    font-size: 70%;
+    
+    margin: 0;
 
 }
 @media(max-width: 800px) {
